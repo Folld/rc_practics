@@ -1,6 +1,6 @@
 import random
 
-from src.characters.base import Human
+from part1.src.characters.base import Human
 
 
 class Citizen(Human):

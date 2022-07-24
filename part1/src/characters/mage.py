@@ -1,6 +1,6 @@
 import random
 
-from src.characters.citizen import Citizen
+from part1.src.characters.citizen import Citizen
 
 
 class Mage(Citizen):

@@ -1,7 +1,7 @@
 import random
 import time
 
-from src.characters import Citizen, Mage, Rogue, Priest, Warrior
+from part1.src.characters import Citizen, Mage, Rogue, Priest, Warrior
 
 if __name__ == '__main__':
     team = [Priest, Citizen, Mage, Rogue, Warrior]
