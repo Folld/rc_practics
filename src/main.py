@@ -4,7 +4,7 @@ import time
 from src.characters import Citizen, Mage, Rogue, Priest, Warrior
 
 if __name__ == '__main__':
-    team = [Warrior, Rogue, Mage, Priest]
+    team = [Priest, Citizen, Mage, Rogue, Warrior]
 
     battlefield = [character() for character in team]
 

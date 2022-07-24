@@ -8,13 +8,12 @@ class Priest(Citizen):
     weapon = 'hummer'
     mana = 100
 
-    @classmethod
-    def heal(cls):
+    def heal(self):
         price = 20
-        if cls.mana >= price:
-            cls.health += price
-            cls.mana -= price
-            print(f'{cls.__name__} heal! HP = {cls.health}')
+        if self.mana >= price:
+            self.health += price
+            self.mana -= price
+            print(f'{self.name} heal! HP = {self.health}')
 
     def hit(self, damage: int):
         if self.get_chances(25):
